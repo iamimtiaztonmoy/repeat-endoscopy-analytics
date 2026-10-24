@@ -1,0 +1,13 @@
+cohort,index_codes,followup_search,population,n,observed_first_repeat730,observed_percent,wilson_low_percent,wilson_high_percent,interpretation
+Colonoscopy45378,45378,Original procedure workbook,All index patients,8133,89,1.094307143735399,0.8901718936507048,1.344619821795219,Recorded-event proportion; continuous observation unverified
+Colonoscopy45378,45378,Original procedure workbook,730 calendar days available,7939,88,1.1084519460889282,0.9006375432318754,1.3635579559868123,Recorded-event proportion; continuous observation unverified
+Colonoscopy45378,45378,Both procedure workbooks,All index patients,8133,91,1.1188983155047338,0.9122680724360159,1.3716827672259,Recorded-event proportion; continuous observation unverified
+Colonoscopy45378,45378,Both procedure workbooks,730 calendar days available,7939,90,1.1336440357727673,0.923259881418565,1.3912954294712712,Recorded-event proportion; continuous observation unverified
+ColonoscopyCore,45378/45380,Original procedure workbook,All index patients,12776,157,1.2288666249217282,1.0519563320210754,1.4350968903905277,Recorded-event proportion; continuous observation unverified
+ColonoscopyCore,45378/45380,Original procedure workbook,730 calendar days available,12462,156,1.2518054886856043,1.071077158253373,1.4625781899558583,Recorded-event proportion; continuous observation unverified
+ColonoscopyCore,45378/45380,Both procedure workbooks,All index patients,12776,181,1.4167188478396995,1.2259087993564568,1.6367359368831227,Recorded-event proportion; continuous observation unverified
+ColonoscopyCore,45378/45380,Both procedure workbooks,730 calendar days available,12462,180,1.4443909484833894,1.249374824815661,1.6693327491784224,Recorded-event proportion; continuous observation unverified
+EGDCore,43235/43239,Original procedure workbook,All index patients,41772,2934,7.023843723068084,6.782711438943544,7.272879672509449,Recorded-event proportion; continuous observation unverified
+EGDCore,43235/43239,Original procedure workbook,730 calendar days available,38864,2817,7.248353231782627,6.994773322244778,7.510383761906185,Recorded-event proportion; continuous observation unverified
+EGDCore,43235/43239,Both procedure workbooks,All index patients,41772,2952,7.066934788853778,6.82510511820343,7.316660200022838,Recorded-event proportion; continuous observation unverified
+EGDCore,43235/43239,Both procedure workbooks,730 calendar days available,38864,2835,7.294668587896254,7.040326612211601,7.557452029115727,Recorded-event proportion; continuous observation unverified

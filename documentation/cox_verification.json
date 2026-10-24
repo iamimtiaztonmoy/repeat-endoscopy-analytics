@@ -1,0 +1,87 @@
+{
+  "independent_engine": "statsmodels PHReg, Efron ties",
+  "checks": [
+    {
+      "dataset": "Colonoscopy",
+      "scenario": "Administrative",
+      "max_log_hr_difference": 2.9783209565259483e-08,
+      "max_se_difference": 4.012971233091633e-09
+    },
+    {
+      "dataset": "Colonoscopy",
+      "scenario": "Last recorded contact",
+      "max_log_hr_difference": 3.511705939907017e-05,
+      "max_se_difference": 1.2118525461790597e-05
+    },
+    {
+      "dataset": "EGD",
+      "scenario": "Administrative",
+      "max_log_hr_difference": 6.943387520719213e-05,
+      "max_se_difference": 1.4110817284251898e-05
+    },
+    {
+      "dataset": "EGD",
+      "scenario": "Last recorded contact",
+      "max_log_hr_difference": 1.2927662487172142e-06,
+      "max_se_difference": 2.6268208153101824e-07
+    }
+  ],
+  "interval_checks": [
+    {
+      "dataset": "Colonoscopy",
+      "scenario": "Administrative",
+      "period": "Days 1-90",
+      "max_log_hr_difference": 4.537175335439514e-06,
+      "max_se_difference": 1.6469488448578318e-06
+    },
+    {
+      "dataset": "Colonoscopy",
+      "scenario": "Administrative",
+      "period": "Days 91-730",
+      "max_log_hr_difference": 1.6560872708612506e-05,
+      "max_se_difference": 8.258425383322887e-06
+    },
+    {
+      "dataset": "Colonoscopy",
+      "scenario": "Last recorded contact",
+      "period": "Days 1-90",
+      "max_log_hr_difference": 6.7595776684914455e-06,
+      "max_se_difference": 2.650326228037514e-06
+    },
+    {
+      "dataset": "Colonoscopy",
+      "scenario": "Last recorded contact",
+      "period": "Days 91-730",
+      "max_log_hr_difference": 6.383332268544706e-06,
+      "max_se_difference": 3.070100317081881e-06
+    },
+    {
+      "dataset": "EGD",
+      "scenario": "Administrative",
+      "period": "Days 1-90",
+      "max_log_hr_difference": 1.4039715527935925e-06,
+      "max_se_difference": 3.3196777182720183e-07
+    },
+    {
+      "dataset": "EGD",
+      "scenario": "Administrative",
+      "period": "Days 91-730",
+      "max_log_hr_difference": 5.299606724573636e-07,
+      "max_se_difference": 2.6980897871453635e-07
+    },
+    {
+      "dataset": "EGD",
+      "scenario": "Last recorded contact",
+      "period": "Days 1-90",
+      "max_log_hr_difference": 2.1236689774661865e-05,
+      "max_se_difference": 2.288669966543644e-06
+    },
+    {
+      "dataset": "EGD",
+      "scenario": "Last recorded contact",
+      "period": "Days 91-730",
+      "max_log_hr_difference": 7.3409727122109025e-06,
+      "max_se_difference": 4.041375532004565e-07
+    }
+  ]
+}

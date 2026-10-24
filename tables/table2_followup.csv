@@ -1,0 +1,4 @@
+definition,patients,zero_days,positive_days,missing_days,negative_days,uncapped_days,capped730_proxy_days,observed_events730
+Billing index to latest appointment,65,60,5,0,0,956,738,0
+Billing index to latest admission,65,50,15,0,0,977,759,0
+Admission index to latest admission,65,51,14,0,0,974,756,0

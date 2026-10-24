@@ -1,0 +1,35 @@
+{
+  "n": 65,
+  "events730": 0,
+  "any_repeat": 0,
+  "index_start": "2016-01-25",
+  "index_end": "2023-02-06",
+  "proxy_days": 738,
+  "verified_followup_available": 0,
+  "calendar730": 55,
+  "bmi_flagged": 0,
+  "strict_first_n": 64,
+  "broad": {
+    "patients": 8133,
+    "billing_rows": 8381,
+    "distinct_days": 8374,
+    "repeat_patients_anytime": 219,
+    "repeat730": 89
+  },
+  "diagnosis_rows": 119292,
+  "icd9_bleeding_rows": 2,
+  "ibd_any_export": 0,
+  "flow": {
+    "All professional fee rows": 45260,
+    "45378 rows in study window": 8381,
+    "Unique 45378 patient encounter keys": 8380,
+    "Distinct 45378 patient days": 8374,
+    "Patients with any 45378": 8133,
+    "45378 encounter keys without coded diagnoses": 81,
+    "Qualifying bleeding procedure encounters": 65,
+    "Earliest qualifying patients": 65,
+    "Observed repeat within 730 days": 0,
+    "Positive appointment proxy follow-up": 5
+  },
+  "icd9_sensitivity_n": 65
+}

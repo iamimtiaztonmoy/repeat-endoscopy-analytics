@@ -1,0 +1,25 @@
+dataset,scenario,day,at_risk,cumulative_repeat_estimate
+Colonoscopy,Administrative,30,12716,0.003992701090908435
+Colonoscopy,Administrative,90,12671,0.005717773169266249
+Colonoscopy,Administrative,365,12510,0.01013296988456569
+Colonoscopy,Administrative,730,12282,0.014272695952037062
+Colonoscopy,Last recorded contact,30,1761,0.024154107774688405
+Colonoscopy,Last recorded contact,90,1619,0.036899681352907
+Colonoscopy,Last recorded contact,365,1389,0.07267664453391176
+Colonoscopy,Last recorded contact,730,1201,0.10900899969004296
+Colonoscopy,Last appointment plus repeat evidence,30,1067,0.04272214829786691
+Colonoscopy,Last appointment plus repeat evidence,90,980,0.06326166773468189
+Colonoscopy,Last appointment plus repeat evidence,365,872,0.11887995618956737
+Colonoscopy,Last appointment plus repeat evidence,730,789,0.17239997860231737
+EGD,Administrative,30,41459,0.005033260563234054
+EGD,Administrative,90,40816,0.014327383944856109
+EGD,Administrative,365,38512,0.04474323305948402
+EGD,Administrative,730,36031,0.07279747631743261
+EGD,Last recorded contact,30,7320,0.024721528565907036
+EGD,Last recorded contact,90,6415,0.07850704622999194
+EGD,Last recorded contact,365,4829,0.2637924142517384
+EGD,Last recorded contact,730,3631,0.4351526409144527
+EGD,Last appointment plus repeat evidence,30,6708,0.028737654838230542
+EGD,Last appointment plus repeat evidence,90,5987,0.08635521907197075
+EGD,Last appointment plus repeat evidence,365,4534,0.2810952902912971
+EGD,Last appointment plus repeat evidence,730,3398,0.45799313375273976

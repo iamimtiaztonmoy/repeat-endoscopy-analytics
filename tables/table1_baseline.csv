@@ -1,0 +1,16 @@
+characteristic,value,missing
+K59 family flag,17/65 (26.2%),0
+Rectal bleeding K62.5,65/65 (100.0%),0
+Other K62 family codes,13/65 (20.0%),0
+Any stool code composite,65/65 (100.0%),0
+Upper abdominal pain R10.1,8/65 (12.3%),0
+Pelvic pain R10.2,1/65 (1.5%),0
+Lower abdominal pain R10.3,8/65 (12.3%),0
+Other or unspecified abdominal pain R10.8 or R10.9,12/65 (18.5%),0
+Any abdominal pain code composite,23/65 (35.4%),0
+BMI at index,27.3 (23.8-31.8); range 16.4-47.0,7
+Source age with unverified reference date,43.6 (38.8-55.0); range 22.4-86.3,0
+Female recorded gender,36/65 (55.4%),0
+Verified age at index,Unavailable,65
+Known smoking status at exact index encounter,0,65
+GI department proxy among patients with index orders,64/64,1

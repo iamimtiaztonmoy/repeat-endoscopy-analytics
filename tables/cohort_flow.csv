@@ -1,0 +1,11 @@
+stage,count
+All professional fee rows,45260
+45378 rows in study window,8381
+Unique 45378 patient encounter keys,8380
+Distinct 45378 patient days,8374
+Patients with any 45378,8133
+45378 encounter keys without coded diagnoses,81
+Qualifying bleeding procedure encounters,65
+Earliest qualifying patients,65
+Observed repeat within 730 days,0
+Positive appointment proxy follow-up,5

@@ -1,0 +1,11 @@
+STROBE_RECORD_domain,package_location,status
+Title and abstract,Manuscript title and structured abstract,Retrospective routinely collected data; recorded-event outcome identified
+Setting and selection,Methods; source manifests; cohort tables,Source study window and eligibility stated; exact institutional description remains an author declaration
+Variables and linkage,Methods; data dictionary; code,Patient+encounter linkage and patient-day consolidation documented
+Bias,Discussion; final report,"Selection, incomplete follow-up, missing age, coding and ascertainment addressed"
+Study size and missingness,Baseline and missingness CSV files,Fixed available sample; no post hoc power claim
+Statistical methods,Analysis specification; full model tables,"Exploratory status, sensitivity assumptions and missingness handling documented"
+Results and uncertainty,Tables and figures,"Denominators, events and Wilson/model intervals supplied"
+Validation,validation.json; cox_verification.json,Computational validation completed; no clinical gold-standard validation claimed
+Interpretation,Discussion,"No low-value care, provider-change or complete population-risk claim"
+Ethics and other information,Publication declarations,"Author-supplied IRB, funding, conflicts and affiliations required before journal submission"

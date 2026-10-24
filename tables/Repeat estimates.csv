@@ -1,0 +1,45 @@
+dataset,definition,n,events,proportion,ci_low,ci_high
+Colonoscopy,Original source only; core codes; first repeat within 730; calendar opportunity,12462,156,0.012518054886856042,0.010710771582533729,0.014625781899558583
+Colonoscopy,Both source workbooks; core codes; first repeat within 730; calendar opportunity,12462,180,0.014443909484833895,0.01249374824815661,0.016693327491784225
+Colonoscopy,Both sources; broader procedure family at follow-up; calendar opportunity,12462,185,0.014845129192745948,0.012866466280946379,0.01712280159604623
+Colonoscopy,Core codes; first repeat at any observed time; all index patients,12776,607,0.047510958046336885,0.043956282288886116,0.051337658777975505
+Colonoscopy,Core codes; observed repeat within 730; all index patients including shorter calendar opportunity,12776,181,0.014167188478396995,0.012259087993564568,0.016367359368831227
+Colonoscopy,All available core index patients pooled across both sources; calendar opportunity,18873,302,0.01600169554389869,0.01430743848287017,0.017892941021650396
+Colonoscopy,Core codes; any procedure days 31–730; calendar opportunity,12462,132,0.01059220028887819,0.00893961569265634,0.012546415531587446
+Colonoscopy,Core codes; first repeat occurs days 31–730; calendar opportunity,12462,129,0.010351468464130958,0.00871920242624905,0.012285513515763671
+Colonoscopy,Symptom-positive first core index; any core repeat; calendar opportunity,4321,64,0.014811386253182134,0.011616493854448915,0.01886819791426274
+Colonoscopy,Symptom-positive first core index; first repeat shares coded symptom; calendar opportunity,4321,48,0.0111085396898866,0.00838907379339718,0.014696502815905644
+Colonoscopy,Index diagnosis: abdominal_pain; core repeat; calendar opportunity,3181,50,0.01571832756994656,0.011943305765676097,0.02066160099760916
+Colonoscopy,Index diagnosis: constipation; core repeat; calendar opportunity,1665,21,0.012612612612612612,0.008264131468343254,0.01920490016339036
+Colonoscopy,Index diagnosis: rectal_bleeding; core repeat; calendar opportunity,69,0,0.0,0.0,0.05273725818905175
+Colonoscopy,Index era 2000–2011; core repeat; calendar opportunity,10212,152,0.014884449667058363,0.012711668587229746,0.01742206636368745
+Colonoscopy,Index era 2012–2015; core repeat; calendar opportunity,997,18,0.01805416248746239,0.011450179566875916,0.028357782493009066
+Colonoscopy,Index era 2016 onward; core repeat; calendar opportunity,1253,10,0.007980845969672785,0.004340764929998542,0.014628579734255921
+Colonoscopy,Core codes; first repeat within 30 days; matching calendar opportunity,12767,51,0.0039946737683089215,0.0030397636618978087,0.005247979879667377
+Colonoscopy,Core codes; first repeat within 90 days; matching calendar opportunity,12744,73,0.005728185812931576,0.004558631736505502,0.007195629508798374
+Colonoscopy,Core codes; first repeat within 365 days; matching calendar opportunity,12638,129,0.010207311283430923,0.008597686391880703,0.012114601424226766
+Colonoscopy,Core codes; first repeat within 730 days; matching calendar opportunity,12462,180,0.014443909484833895,0.01249374824815661,0.016693327491784225
+Colonoscopy,"45378 only, any indication, original source; calendar opportunity",7939,88,0.011084519460889281,0.009006375432318754,0.013635579559868122
+Colonoscopy,"45378 only, any index indication; calendar opportunity",7939,90,0.011336440357727674,0.009232598814185648,0.013912954294712714
+Colonoscopy,45378 index with bleeding in either ICD system; calendar opportunity,55,0,0.0,0.0,0.06528490111708639
+EGD,Original source only; core codes; first repeat within 730; calendar opportunity,38864,2817,0.07248353231782627,0.06994773322244778,0.07510383761906185
+EGD,Both source workbooks; core codes; first repeat within 730; calendar opportunity,38864,2835,0.07294668587896254,0.07040326612211599,0.07557452029115728
+EGD,Both sources; broader procedure family at follow-up; calendar opportunity,38864,2938,0.07559695347879786,0.07301050152540478,0.07826729621518264
+EGD,Core codes; first repeat at any observed time; all index patients,41772,6218,0.1488556928085799,0.1454745657761987,0.152301398140241
+EGD,Core codes; observed repeat within 730; all index patients including shorter calendar opportunity,41772,2952,0.07066934788853778,0.0682510511820343,0.07316660200022838
+EGD,All available core index patients pooled across both sources; calendar opportunity,39653,2857,0.07205003404534335,0.06954626444728135,0.07463671252424697
+EGD,Core codes; any procedure days 31–730; calendar opportunity,38864,2670,0.06870111156854673,0.06622871706057036,0.07125875994486956
+EGD,Core codes; first repeat occurs days 31–730; calendar opportunity,38864,2632,0.06772334293948126,0.06526768942583369,0.07026444359477188
+EGD,Symptom-positive first core index; any core repeat; calendar opportunity,19200,1071,0.05578125,0.05262299864258409,0.059117220803721934
+EGD,Symptom-positive first core index; first repeat shares coded symptom; calendar opportunity,19200,629,0.03276041666666667,0.03033449467130702,0.03537326809722522
+EGD,Index diagnosis: abdominal_pain; core repeat; calendar opportunity,11008,486,0.044149709302325583,0.040468568702018204,0.04814889482303342
+EGD,Index diagnosis: heartburn; core repeat; calendar opportunity,3348,110,0.032855436081242535,0.027332416274174612,0.039449220497944706
+EGD,Index diagnosis: dysphagia; core repeat; calendar opportunity,6747,558,0.08270342374388617,0.07636628161180564,0.08951547781797653
+EGD,Index diagnosis: reflux; core repeat; calendar opportunity,421,12,0.028503562945368172,0.01637902992159443,0.049154731538453456
+EGD,Index era 2000–2011; core repeat; calendar opportunity,23135,1763,0.07620488437432461,0.07285585317265132,0.07969463061464706
+EGD,Index era 2012–2015; core repeat; calendar opportunity,7412,513,0.06921208850512682,0.06365417268840531,0.07521630674933402
+EGD,Index era 2016 onward; core repeat; calendar opportunity,8317,559,0.06721173500060118,0.062027876221313206,0.07279520199410705
+EGD,Core codes; first repeat within 30 days; matching calendar opportunity,41665,209,0.005016200648025921,0.004381975108807765,0.005741691497991938
+EGD,Core codes; first repeat within 90 days; matching calendar opportunity,41402,591,0.014274672721124584,0.013176289761080295,0.015463182763588669
+EGD,Core codes; first repeat within 365 days; matching calendar opportunity,40317,1810,0.0448942133591289,0.042915930905361895,0.04695921375206521
+EGD,Core codes; first repeat within 730 days; matching calendar opportunity,38864,2835,0.07294668587896254,0.07040326612211599,0.07557452029115728

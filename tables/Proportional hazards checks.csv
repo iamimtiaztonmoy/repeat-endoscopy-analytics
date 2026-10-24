@@ -1,0 +1,40 @@
+dataset,scenario,term,test_statistic,p_value
+Colonoscopy,Administrative,abdominal_pain,1.1877011734410787,0.27579374772312837
+Colonoscopy,Administrative,constipation,0.5528452090100222,0.4571574681367693
+Colonoscopy,Administrative,era_2012_2015,2.340117293384401,0.12608006030877145
+Colonoscopy,Administrative,era_2016_plus,9.345750497433784,0.002235031074523765
+Colonoscopy,Administrative,female,1.0047183039179919,0.31617150353215573
+Colonoscopy,Administrative,unknown_dx,1.0595601101312788,0.30331553506122694
+Colonoscopy,Last recorded contact,abdominal_pain,0.6441460036253963,0.4222134446947172
+Colonoscopy,Last recorded contact,constipation,0.5031366915863179,0.478125119980478
+Colonoscopy,Last recorded contact,era_2012_2015,0.10950081479559641,0.7407131682162212
+Colonoscopy,Last recorded contact,era_2016_plus,1.3903338751722831,0.238348724207396
+Colonoscopy,Last recorded contact,female,1.7571172455500008,0.1849844913820538
+Colonoscopy,Last recorded contact,unknown_dx,1.3304301557616545,0.2487287070538414
+Colonoscopy,Last appointment plus repeat evidence,abdominal_pain,1.1055773653049965,0.2930453557198317
+Colonoscopy,Last appointment plus repeat evidence,constipation,0.43495951128981863,0.5095653720229691
+Colonoscopy,Last appointment plus repeat evidence,era_2012_2015,0.056514274910291824,0.8120925988693928
+Colonoscopy,Last appointment plus repeat evidence,era_2016_plus,2.0164877459584796,0.15559868651437056
+Colonoscopy,Last appointment plus repeat evidence,female,1.4535888378605986,0.22795296499781012
+Colonoscopy,Last appointment plus repeat evidence,unknown_dx,1.0353013509030815,0.3089167769362315
+EGD,Administrative,abdominal_pain,21.47203113136177,3.590272093407877e-06
+EGD,Administrative,dysphagia,69.00870009810795,9.803003712102139e-17
+EGD,Administrative,era_2012_2015,4.314344206403658,0.03779233511428633
+EGD,Administrative,era_2016_plus,0.006312082194792185,0.9366758027920536
+EGD,Administrative,female,14.3299374224295,0.0001534057684950718
+EGD,Administrative,heartburn,0.16569554308947881,0.6839659963372166
+EGD,Administrative,unknown_dx,16.37039555778756,5.209254851798021e-05
+EGD,Last recorded contact,abdominal_pain,18.39923239545236,1.7913012841722263e-05
+EGD,Last recorded contact,dysphagia,49.80788735016271,1.695609634270172e-12
+EGD,Last recorded contact,era_2012_2015,1.899253493380533,0.16816190067553807
+EGD,Last recorded contact,era_2016_plus,1.5903557790599618,0.207275310285927
+EGD,Last recorded contact,female,7.208416041719259,0.007256250476218792
+EGD,Last recorded contact,heartburn,0.43091564035690394,0.5115399992042806
+EGD,Last recorded contact,unknown_dx,14.93581538547635,0.00011123116844997942
+EGD,Last appointment plus repeat evidence,abdominal_pain,21.814118540852267,3.0038163367706046e-06
+EGD,Last appointment plus repeat evidence,dysphagia,52.61930216346421,4.0489028321979564e-13
+EGD,Last appointment plus repeat evidence,era_2012_2015,1.0982529748105125,0.2946498231996513
+EGD,Last appointment plus repeat evidence,era_2016_plus,1.3394802322089345,0.2471256511012912
+EGD,Last appointment plus repeat evidence,female,6.146788751487878,0.013165093527202663
+EGD,Last appointment plus repeat evidence,heartburn,0.24007074528268352,0.6241550234713076
+EGD,Last appointment plus repeat evidence,unknown_dx,15.202770979645528,9.656162496731e-05

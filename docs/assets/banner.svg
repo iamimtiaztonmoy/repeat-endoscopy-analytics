@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Repeat Endoscopy Analytics</title><desc id="desc">Scientific study of recorded utilization, source ascertainment, and observation sensitivity.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1730"/><stop offset="1" stop-color="#10474e"/></linearGradient></defs>
+<rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+<g fill="none" stroke="#32616b" opacity=".5"><path d="M820 40V260M900 40V260M980 40V260M1060 40V260M1140 40V260M800 70H1170M800 130H1170M800 190H1170M800 250H1170"/></g>
+<path d="M810 230H870V207H930V172H990V140H1050V99H1110V65H1170" fill="none" stroke="#60dbc6" stroke-width="5"/>
+<text x="56" y="66" fill="#75e2d0" font-family="Arial,sans-serif" font-size="15" letter-spacing="3">OBSERVATIONAL HEALTH SERVICES RESEARCH</text>
+<text x="56" y="132" fill="white" font-family="Arial,sans-serif" font-size="45" font-weight="700">Repeat Endoscopy</text>
+<text x="56" y="184" fill="white" font-family="Arial,sans-serif" font-size="45" font-weight="700">Analytics</text>
+<text x="58" y="240" fill="#c5d6e2" font-family="Arial,sans-serif" font-size="19">Source coverage. Recorded events. Transparent assumptions.</text>
+<text x="852" y="282" fill="#a9c5cf" font-family="Arial,sans-serif" font-size="12">SCHEMATIC — NOT OBSERVED DATA</text>
+</svg>

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this research repository and record the commit used. Manuscript authorship is not specified by this metadata."
+title: "Repeat Endoscopy Analytics: Recorded Utilization and Source Ascertainment"
+type: software
+authors:
+  - name: "iamimtiaztonmoy (repository maintainer)"
+repository-code: "https://github.com/iamimtiaztonmoy/repeat-endoscopy-analytics"
+url: "https://github.com/iamimtiaztonmoy/repeat-endoscopy-analytics"
+version: 0.1.0
+date-released: 2026-10-24
+abstract: "Research companion for retrospective analysis of recorded repeat endoscopy, cross-source event ascertainment, symptom-code overlap, and observation-rule sensitivity. Contains code and aggregate outputs only."
+keywords:
+  - endoscopy
+  - observational research
+  - electronic health records
+  - survival analysis
+  - reproducibility

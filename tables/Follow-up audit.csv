@@ -1,0 +1,7 @@
+dataset,scenario,starting_n,zero_followup,unknown_gender_after_positive,n,events,person_years,median_days,events_after_last_appointment
+Colonoscopy,Administrative,12776,0,0,12776,181,24992.32580424367,730.0,134
+Colonoscopy,Last recorded contact,12776,9339,0,3437,181,2844.6351813826145,43.0,134
+Colonoscopy,Last appointment plus repeat evidence,12776,11374,0,1402,181,1775.6741957563313,730.0,134
+EGD,Administrative,41772,5,0,41767,2952,77199.75085557837,730.0,1343
+EGD,Last recorded contact,41772,24828,0,16944,2952,10136.47638603696,6.0,1343
+EGD,Last appointment plus repeat evidence,41772,32511,0,9261,2952,9430.203969883642,350.0,1343

@@ -1,0 +1,800 @@
+{
+  "details": {
+    "Colonoscopy": {
+      "index_patients": 12776,
+      "index_patientdays": 13235,
+      "same_day_rows_collapsed": 20,
+      "source_only_events730_full": 156,
+      "union_events730_full": 180,
+      "additional_patients_with_events_from_other_workbook": 24,
+      "full_calendar_patients": 12462,
+      "missing_index_diagnoses": 96,
+      "repeat_cases_missing_repeat_diagnoses": 0,
+      "median_gap_among_730_events": 179.5,
+      "core_codes": [
+        "45378",
+        "45380"
+      ],
+      "broad_followup_codes": [
+        "45378",
+        "45379",
+        "45380",
+        "45381",
+        "45382",
+        "45383",
+        "45384",
+        "45385",
+        "45386",
+        "45388",
+        "45390",
+        "45391",
+        "44388",
+        "44389",
+        "44392",
+        "44394",
+        "G0105",
+        "G0121"
+      ],
+      "symptoms": [
+        "abdominal_pain",
+        "constipation",
+        "rectal_bleeding"
+      ],
+      "unique_repeat_cases_anytime": 607,
+      "model_omitted_zero_event_symptom_terms": [
+        "rectal_bleeding"
+      ],
+      "model_converged": true,
+      "model_max_fitted_probability": 0.022604043698531338,
+      "model_excluded_unknown_gender": 0,
+      "bleeding_index_n": 65
+    },
+    "EGD": {
+      "index_patients": 41772,
+      "index_patientdays": 51451,
+      "same_day_rows_collapsed": 71,
+      "source_only_events730_full": 2817,
+      "union_events730_full": 2835,
+      "additional_patients_with_events_from_other_workbook": 18,
+      "full_calendar_patients": 38864,
+      "missing_index_diagnoses": 35,
+      "repeat_cases_missing_repeat_diagnoses": 5,
+      "median_gap_among_730_events": 273.0,
+      "core_codes": [
+        "43235",
+        "43239"
+      ],
+      "broad_followup_codes": [
+        "43233",
+        "43234",
+        "43235",
+        "43236",
+        "43237",
+        "43238",
+        "43239",
+        "43240",
+        "43241",
+        "43242",
+        "43243",
+        "43244",
+        "43245",
+        "43246",
+        "43247",
+        "43248",
+        "43249",
+        "43250",
+        "43251",
+        "43253",
+        "43254",
+        "43255",
+        "43256",
+        "43258",
+        "43259",
+        "43266",
+        "43270"
+      ],
+      "symptoms": [
+        "abdominal_pain",
+        "heartburn",
+        "dysphagia"
+      ],
+      "unique_repeat_cases_anytime": 6218,
+      "model_omitted_zero_event_symptom_terms": [],
+      "model_converged": true,
+      "model_max_fitted_probability": 0.19780426335154117,
+      "model_excluded_unknown_gender": 0
+    }
+  },
+  "estimates": [
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Original source only; core codes; first repeat within 730; calendar opportunity",
+      "n": 12462,
+      "events": 156,
+      "proportion": 0.012518054886856042,
+      "ci_low": 0.010710771582533729,
+      "ci_high": 0.014625781899558583
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Both source workbooks; core codes; first repeat within 730; calendar opportunity",
+      "n": 12462,
+      "events": 180,
+      "proportion": 0.014443909484833895,
+      "ci_low": 0.01249374824815661,
+      "ci_high": 0.016693327491784225
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Both sources; broader procedure family at follow-up; calendar opportunity",
+      "n": 12462,
+      "events": 185,
+      "proportion": 0.014845129192745948,
+      "ci_low": 0.012866466280946379,
+      "ci_high": 0.01712280159604623
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Core codes; first repeat at any observed time; all index patients",
+      "n": 12776,
+      "events": 607,
+      "proportion": 0.047510958046336885,
+      "ci_low": 0.043956282288886116,
+      "ci_high": 0.051337658777975505
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Core codes; observed repeat within 730; all index patients including shorter calendar opportunity",
+      "n": 12776,
+      "events": 181,
+      "proportion": 0.014167188478396995,
+      "ci_low": 0.012259087993564568,
+      "ci_high": 0.016367359368831227
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "All available core index patients pooled across both sources; calendar opportunity",
+      "n": 18873,
+      "events": 302,
+      "proportion": 0.01600169554389869,
+      "ci_low": 0.01430743848287017,
+      "ci_high": 0.017892941021650396
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Core codes; any procedure days 31\u2013730; calendar opportunity",
+      "n": 12462,
+      "events": 132,
+      "proportion": 0.01059220028887819,
+      "ci_low": 0.00893961569265634,
+      "ci_high": 0.012546415531587446
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Core codes; first repeat occurs days 31\u2013730; calendar opportunity",
+      "n": 12462,
+      "events": 129,
+      "proportion": 0.010351468464130958,
+      "ci_low": 0.00871920242624905,
+      "ci_high": 0.012285513515763671
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Symptom-positive first core index; any core repeat; calendar opportunity",
+      "n": 4321,
+      "events": 64,
+      "proportion": 0.014811386253182134,
+      "ci_low": 0.011616493854448915,
+      "ci_high": 0.01886819791426274
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Symptom-positive first core index; first repeat shares coded symptom; calendar opportunity",
+      "n": 4321,
+      "events": 48,
+      "proportion": 0.0111085396898866,
+      "ci_low": 0.00838907379339718,
+      "ci_high": 0.014696502815905644
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Index diagnosis: abdominal_pain; core repeat; calendar opportunity",
+      "n": 3181,
+      "events": 50,
+      "proportion": 0.01571832756994656,
+      "ci_low": 0.011943305765676097,
+      "ci_high": 0.02066160099760916
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Index diagnosis: constipation; core repeat; calendar opportunity",
+      "n": 1665,
+      "events": 21,
+      "proportion": 0.012612612612612612,
+      "ci_low": 0.008264131468343254,
+      "ci_high": 0.01920490016339036
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Index diagnosis: rectal_bleeding; core repeat; calendar opportunity",
+      "n": 69,
+      "events": 0,
+      "proportion": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.05273725818905175
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Index era 2000\u20132011; core repeat; calendar opportunity",
+      "n": 10212,
+      "events": 152,
+      "proportion": 0.014884449667058363,
+      "ci_low": 0.012711668587229746,
+      "ci_high": 0.01742206636368745
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Index era 2012\u20132015; core repeat; calendar opportunity",
+      "n": 997,
+      "events": 18,
+      "proportion": 0.01805416248746239,
+      "ci_low": 0.011450179566875916,
+      "ci_high": 0.028357782493009066
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Index era 2016 onward; core repeat; calendar opportunity",
+      "n": 1253,
+      "events": 10,
+      "proportion": 0.007980845969672785,
+      "ci_low": 0.004340764929998542,
+      "ci_high": 0.014628579734255921
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Core codes; first repeat within 30 days; matching calendar opportunity",
+      "n": 12767,
+      "events": 51,
+      "proportion": 0.0039946737683089215,
+      "ci_low": 0.0030397636618978087,
+      "ci_high": 0.005247979879667377
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Core codes; first repeat within 90 days; matching calendar opportunity",
+      "n": 12744,
+      "events": 73,
+      "proportion": 0.005728185812931576,
+      "ci_low": 0.004558631736505502,
+      "ci_high": 0.007195629508798374
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Core codes; first repeat within 365 days; matching calendar opportunity",
+      "n": 12638,
+      "events": 129,
+      "proportion": 0.010207311283430923,
+      "ci_low": 0.008597686391880703,
+      "ci_high": 0.012114601424226766
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "Core codes; first repeat within 730 days; matching calendar opportunity",
+      "n": 12462,
+      "events": 180,
+      "proportion": 0.014443909484833895,
+      "ci_low": 0.01249374824815661,
+      "ci_high": 0.016693327491784225
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "45378 only, any indication, original source; calendar opportunity",
+      "n": 7939,
+      "events": 88,
+      "proportion": 0.011084519460889281,
+      "ci_low": 0.009006375432318754,
+      "ci_high": 0.013635579559868122
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "45378 only, any index indication; calendar opportunity",
+      "n": 7939,
+      "events": 90,
+      "proportion": 0.011336440357727674,
+      "ci_low": 0.009232598814185648,
+      "ci_high": 0.013912954294712714
+    },
+    {
+      "dataset": "Colonoscopy",
+      "definition": "45378 index with bleeding in either ICD system; calendar opportunity",
+      "n": 55,
+      "events": 0,
+      "proportion": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.06528490111708639
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Original source only; core codes; first repeat within 730; calendar opportunity",
+      "n": 38864,
+      "events": 2817,
+      "proportion": 0.07248353231782627,
+      "ci_low": 0.06994773322244778,
+      "ci_high": 0.07510383761906185
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Both source workbooks; core codes; first repeat within 730; calendar opportunity",
+      "n": 38864,
+      "events": 2835,
+      "proportion": 0.07294668587896254,
+      "ci_low": 0.07040326612211599,
+      "ci_high": 0.07557452029115728
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Both sources; broader procedure family at follow-up; calendar opportunity",
+      "n": 38864,
+      "events": 2938,
+      "proportion": 0.07559695347879786,
+      "ci_low": 0.07301050152540478,
+      "ci_high": 0.07826729621518264
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Core codes; first repeat at any observed time; all index patients",
+      "n": 41772,
+      "events": 6218,
+      "proportion": 0.1488556928085799,
+      "ci_low": 0.1454745657761987,
+      "ci_high": 0.152301398140241
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Core codes; observed repeat within 730; all index patients including shorter calendar opportunity",
+      "n": 41772,
+      "events": 2952,
+      "proportion": 0.07066934788853778,
+      "ci_low": 0.0682510511820343,
+      "ci_high": 0.07316660200022838
+    },
+    {
+      "dataset": "EGD",
+      "definition": "All available core index patients pooled across both sources; calendar opportunity",
+      "n": 39653,
+      "events": 2857,
+      "proportion": 0.07205003404534335,
+      "ci_low": 0.06954626444728135,
+      "ci_high": 0.07463671252424697
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Core codes; any procedure days 31\u2013730; calendar opportunity",
+      "n": 38864,
+      "events": 2670,
+      "proportion": 0.06870111156854673,
+      "ci_low": 0.06622871706057036,
+      "ci_high": 0.07125875994486956
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Core codes; first repeat occurs days 31\u2013730; calendar opportunity",
+      "n": 38864,
+      "events": 2632,
+      "proportion": 0.06772334293948126,
+      "ci_low": 0.06526768942583369,
+      "ci_high": 0.07026444359477188
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Symptom-positive first core index; any core repeat; calendar opportunity",
+      "n": 19200,
+      "events": 1071,
+      "proportion": 0.05578125,
+      "ci_low": 0.05262299864258409,
+      "ci_high": 0.059117220803721934
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Symptom-positive first core index; first repeat shares coded symptom; calendar opportunity",
+      "n": 19200,
+      "events": 629,
+      "proportion": 0.03276041666666667,
+      "ci_low": 0.03033449467130702,
+      "ci_high": 0.03537326809722522
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Index diagnosis: abdominal_pain; core repeat; calendar opportunity",
+      "n": 11008,
+      "events": 486,
+      "proportion": 0.044149709302325583,
+      "ci_low": 0.040468568702018204,
+      "ci_high": 0.04814889482303342
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Index diagnosis: heartburn; core repeat; calendar opportunity",
+      "n": 3348,
+      "events": 110,
+      "proportion": 0.032855436081242535,
+      "ci_low": 0.027332416274174612,
+      "ci_high": 0.039449220497944706
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Index diagnosis: dysphagia; core repeat; calendar opportunity",
+      "n": 6747,
+      "events": 558,
+      "proportion": 0.08270342374388617,
+      "ci_low": 0.07636628161180564,
+      "ci_high": 0.08951547781797653
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Index diagnosis: reflux; core repeat; calendar opportunity",
+      "n": 421,
+      "events": 12,
+      "proportion": 0.028503562945368172,
+      "ci_low": 0.01637902992159443,
+      "ci_high": 0.049154731538453456
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Index era 2000\u20132011; core repeat; calendar opportunity",
+      "n": 23135,
+      "events": 1763,
+      "proportion": 0.07620488437432461,
+      "ci_low": 0.07285585317265132,
+      "ci_high": 0.07969463061464706
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Index era 2012\u20132015; core repeat; calendar opportunity",
+      "n": 7412,
+      "events": 513,
+      "proportion": 0.06921208850512682,
+      "ci_low": 0.06365417268840531,
+      "ci_high": 0.07521630674933402
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Index era 2016 onward; core repeat; calendar opportunity",
+      "n": 8317,
+      "events": 559,
+      "proportion": 0.06721173500060118,
+      "ci_low": 0.062027876221313206,
+      "ci_high": 0.07279520199410705
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Core codes; first repeat within 30 days; matching calendar opportunity",
+      "n": 41665,
+      "events": 209,
+      "proportion": 0.005016200648025921,
+      "ci_low": 0.004381975108807765,
+      "ci_high": 0.005741691497991938
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Core codes; first repeat within 90 days; matching calendar opportunity",
+      "n": 41402,
+      "events": 591,
+      "proportion": 0.014274672721124584,
+      "ci_low": 0.013176289761080295,
+      "ci_high": 0.015463182763588669
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Core codes; first repeat within 365 days; matching calendar opportunity",
+      "n": 40317,
+      "events": 1810,
+      "proportion": 0.0448942133591289,
+      "ci_low": 0.042915930905361895,
+      "ci_high": 0.04695921375206521
+    },
+    {
+      "dataset": "EGD",
+      "definition": "Core codes; first repeat within 730 days; matching calendar opportunity",
+      "n": 38864,
+      "events": 2835,
+      "proportion": 0.07294668587896254,
+      "ci_low": 0.07040326612211599,
+      "ci_high": 0.07557452029115728
+    }
+  ],
+  "models": [
+    {
+      "dataset": "Colonoscopy",
+      "term": "era[T.2012_2015]",
+      "adjusted_recorded_probability_ratio": 1.1862468326392952,
+      "ci_low": 0.7325318972906436,
+      "ci_high": 1.92098330891991,
+      "p_value": 0.48740491593917334,
+      "n": 12462,
+      "events": 180
+    },
+    {
+      "dataset": "Colonoscopy",
+      "term": "era[T.2016_plus]",
+      "adjusted_recorded_probability_ratio": 0.522833405119777,
+      "ci_low": 0.2694531073203219,
+      "ci_high": 1.014479930209826,
+      "p_value": 0.055179916319334846,
+      "n": 12462,
+      "events": 180
+    },
+    {
+      "dataset": "Colonoscopy",
+      "term": "female",
+      "adjusted_recorded_probability_ratio": 0.8787055485221108,
+      "ci_low": 0.6490932531708933,
+      "ci_high": 1.1895416216878456,
+      "p_value": 0.4027245689622615,
+      "n": 12462,
+      "events": 180
+    },
+    {
+      "dataset": "Colonoscopy",
+      "term": "abdominal_pain",
+      "adjusted_recorded_probability_ratio": 1.185991626313251,
+      "ci_low": 0.8498414201839354,
+      "ci_high": 1.6551042397777196,
+      "p_value": 0.3157963549826115,
+      "n": 12462,
+      "events": 180
+    },
+    {
+      "dataset": "Colonoscopy",
+      "term": "constipation",
+      "adjusted_recorded_probability_ratio": 0.8947258329541015,
+      "ci_low": 0.563407491258593,
+      "ci_high": 1.4208797869675134,
+      "p_value": 0.6373656638124076,
+      "n": 12462,
+      "events": 180
+    },
+    {
+      "dataset": "Colonoscopy",
+      "term": "unknown_dx",
+      "adjusted_recorded_probability_ratio": 1.4438074833782741,
+      "ci_low": 0.36201789590219813,
+      "ci_high": 5.758223758148879,
+      "p_value": 0.6027999588126743,
+      "n": 12462,
+      "events": 180
+    },
+    {
+      "dataset": "EGD",
+      "term": "era[T.2012_2015]",
+      "adjusted_recorded_probability_ratio": 0.9451436985189348,
+      "ci_low": 0.8593623583469582,
+      "ci_high": 1.0394877110609866,
+      "p_value": 0.24515935735912142,
+      "n": 38864,
+      "events": 2835
+    },
+    {
+      "dataset": "EGD",
+      "term": "era[T.2016_plus]",
+      "adjusted_recorded_probability_ratio": 0.9231960136784663,
+      "ci_low": 0.8409654607342876,
+      "ci_high": 1.0134671630005285,
+      "p_value": 0.09316790633489416,
+      "n": 38864,
+      "events": 2835
+    },
+    {
+      "dataset": "EGD",
+      "term": "female",
+      "adjusted_recorded_probability_ratio": 0.7777626943249346,
+      "ci_low": 0.7246105011061725,
+      "ci_high": 0.8348137485726934,
+      "p_value": 3.4279256945475035e-12,
+      "n": 38864,
+      "events": 2835
+    },
+    {
+      "dataset": "EGD",
+      "term": "abdominal_pain",
+      "adjusted_recorded_probability_ratio": 0.5380133833457895,
+      "ci_low": 0.48759496341983277,
+      "ci_high": 0.593645181707818,
+      "p_value": 5.055018102590243e-35,
+      "n": 38864,
+      "events": 2835
+    },
+    {
+      "dataset": "EGD",
+      "term": "heartburn",
+      "adjusted_recorded_probability_ratio": 0.40457841653724347,
+      "ci_low": 0.3354137050371997,
+      "ci_high": 0.48800538758435524,
+      "p_value": 3.0760701730018658e-21,
+      "n": 38864,
+      "events": 2835
+    },
+    {
+      "dataset": "EGD",
+      "term": "dysphagia",
+      "adjusted_recorded_probability_ratio": 1.048785695190325,
+      "ci_low": 0.9579402061285114,
+      "ci_high": 1.1482464431483423,
+      "p_value": 0.30281331028248615,
+      "n": 38864,
+      "events": 2835
+    },
+    {
+      "dataset": "EGD",
+      "term": "unknown_dx",
+      "adjusted_recorded_probability_ratio": 1.9066231280541952,
+      "ci_low": 0.9272277530450734,
+      "ci_high": 3.920516551077018,
+      "p_value": 0.07933780965138557,
+      "n": 38864,
+      "events": 2835
+    }
+  ],
+  "eric_variables": [
+    {
+      "dataset": "Colonoscopy",
+      "variable": "variable1",
+      "index_positive": 396,
+      "known_index_diagnoses": 12366,
+      "unknown_index_diagnoses": 96,
+      "repeat_events": 5
+    },
+    {
+      "dataset": "Colonoscopy",
+      "variable": "variable2",
+      "index_positive": 69,
+      "known_index_diagnoses": 12366,
+      "unknown_index_diagnoses": 96,
+      "repeat_events": 0
+    },
+    {
+      "dataset": "Colonoscopy",
+      "variable": "variable3",
+      "index_positive": 155,
+      "known_index_diagnoses": 12366,
+      "unknown_index_diagnoses": 96,
+      "repeat_events": 0
+    },
+    {
+      "dataset": "Colonoscopy",
+      "variable": "variable4",
+      "index_positive": 575,
+      "known_index_diagnoses": 12366,
+      "unknown_index_diagnoses": 96,
+      "repeat_events": 5
+    },
+    {
+      "dataset": "Colonoscopy",
+      "variable": "variable5",
+      "index_positive": 207,
+      "known_index_diagnoses": 12366,
+      "unknown_index_diagnoses": 96,
+      "repeat_events": 1
+    },
+    {
+      "dataset": "Colonoscopy",
+      "variable": "variable6",
+      "index_positive": 11,
+      "known_index_diagnoses": 12366,
+      "unknown_index_diagnoses": 96,
+      "repeat_events": 0
+    },
+    {
+      "dataset": "Colonoscopy",
+      "variable": "variable7",
+      "index_positive": 243,
+      "known_index_diagnoses": 12366,
+      "unknown_index_diagnoses": 96,
+      "repeat_events": 0
+    },
+    {
+      "dataset": "Colonoscopy",
+      "variable": "variable8",
+      "index_positive": 387,
+      "known_index_diagnoses": 12366,
+      "unknown_index_diagnoses": 96,
+      "repeat_events": 2
+    },
+    {
+      "dataset": "Colonoscopy",
+      "variable": "variable9",
+      "index_positive": 699,
+      "known_index_diagnoses": 12366,
+      "unknown_index_diagnoses": 96,
+      "repeat_events": 3
+    },
+    {
+      "dataset": "Colonoscopy",
+      "variable": "variable3_any_other_code",
+      "index_positive": 171,
+      "known_index_diagnoses": 12366,
+      "unknown_index_diagnoses": 96,
+      "repeat_events": 0
+    },
+    {
+      "dataset": "EGD",
+      "variable": "variable1",
+      "index_positive": 547,
+      "known_index_diagnoses": 38829,
+      "unknown_index_diagnoses": 35,
+      "repeat_events": 20
+    },
+    {
+      "dataset": "EGD",
+      "variable": "variable2",
+      "index_positive": 235,
+      "known_index_diagnoses": 38829,
+      "unknown_index_diagnoses": 35,
+      "repeat_events": 9
+    },
+    {
+      "dataset": "EGD",
+      "variable": "variable3",
+      "index_positive": 229,
+      "known_index_diagnoses": 38829,
+      "unknown_index_diagnoses": 35,
+      "repeat_events": 8
+    },
+    {
+      "dataset": "EGD",
+      "variable": "variable4",
+      "index_positive": 954,
+      "known_index_diagnoses": 38829,
+      "unknown_index_diagnoses": 35,
+      "repeat_events": 34
+    },
+    {
+      "dataset": "EGD",
+      "variable": "variable5",
+      "index_positive": 2983,
+      "known_index_diagnoses": 38829,
+      "unknown_index_diagnoses": 35,
+      "repeat_events": 109
+    },
+    {
+      "dataset": "EGD",
+      "variable": "variable6",
+      "index_positive": 8,
+      "known_index_diagnoses": 38829,
+      "unknown_index_diagnoses": 35,
+      "repeat_events": 0
+    },
+    {
+      "dataset": "EGD",
+      "variable": "variable7",
+      "index_positive": 368,
+      "known_index_diagnoses": 38829,
+      "unknown_index_diagnoses": 35,
+      "repeat_events": 16
+    },
+    {
+      "dataset": "EGD",
+      "variable": "variable8",
+      "index_positive": 1763,
+      "known_index_diagnoses": 38829,
+      "unknown_index_diagnoses": 35,
+      "repeat_events": 63
+    },
+    {
+      "dataset": "EGD",
+      "variable": "variable9",
+      "index_positive": 4422,
+      "known_index_diagnoses": 38829,
+      "unknown_index_diagnoses": 35,
+      "repeat_events": 166
+    },
+    {
+      "dataset": "EGD",
+      "variable": "variable3_any_other_code",
+      "index_positive": 247,
+      "known_index_diagnoses": 38829,
+      "unknown_index_diagnoses": 35,
+      "repeat_events": 10
+    }
+  ]
+}

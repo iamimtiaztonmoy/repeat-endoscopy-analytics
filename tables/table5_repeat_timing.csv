@@ -1,0 +1,9 @@
+cohort,first_repeat_days,events,all_events730
+Colonoscopy,1-30,51,180
+Colonoscopy,31-90,22,180
+Colonoscopy,91-365,55,180
+Colonoscopy,366-730,52,180
+EGD,1-30,203,2835
+EGD,31-90,365,2835
+EGD,91-365,1188,2835
+EGD,366-730,1079,2835

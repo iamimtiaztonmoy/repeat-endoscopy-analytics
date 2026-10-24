@@ -1,0 +1,9 @@
+{
+  "relative_path": "Research Project\\EGD diagnosis everything ICD code.xlsx",
+  "sha256": "f9916424e5f982f0d90d0ead31d17a789c5c0bbe4a1b4df794834ba6adda2bd2",
+  "worksheets": [
+    "DiagnosesEverything",
+    "DiagnosesEverything (part 2)"
+  ],
+  "diagnosis_rows": 1119247
+}
